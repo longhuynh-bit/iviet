@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    border: 3px solid #a30000;
+    margin: 0px auto;
+    /* padding:10px 15px; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 4px 3px 5px 0px;
+}
+
+p{
+    line-height:1.6;
+}
+/*----------------------------------------- HEADER -------------------------------------------*/
+header{
+    display: flex;
+    height:105px;
+    width:100%;
+    background-image: -webkit-linear-gradient( 30deg, #ffe082 0%, #fffded 30%, white 50%, #fffded 80%, #ffe082 100%);
+    border-bottom:2px solid #800000;
+}
+header #logo{
+    width:80px;
+    margin:10px 25px 5px;
+    height:90px;
+    /* line-height: 90px; */
+}
+header .header-name{
+    width:700px;
+    margin:10px 20px 5px;
+}
+.header-name h1{
+    color:#a30000;
+}
+.header-name h2 span{
+    text-shadow: 2px -2px 4px #a30000;
+}
+/*----------------------------------------- CONTAINER -------------------------------------------*/
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color:#fffded;
+    padding:10px 5px 48px;
+}
+/*----------------------------------------- .CONTAINER MAIN  -------------------------------------------*/
+
+main{
+    padding: 0 10px;
+    width: 485px;
+}
+.content-1 h2,
+.content-2 h2,
+.content-3 h2{
+    color: #a30000;
+}
+.content-1 h2{
+    margin-bottom: 5px;
+}
+.content-2{
+    margin-top:15px;
+}
+.content-2 h1{
+    border-bottom:2px solid #800000;
+    padding-bottom:5px;
+}
+.aside blockquote{
+    padding: 0.2em 2em 0;
+    line-height:1.6;
+    font-style: italic;
+}
+.content-2 h2{
+    margin-top: 5px ;
+    font-size: 1.5em;
+}
+.content-2>h3{
+    margin-top: 5px ;
+    font-size:1.2em;
+}
+.content-2 .content-nav1 h3{
+    font-size:1.2em;
+}
+.content-nav{
+    display: flex;
+    justify-content: center;
+}
+.content-nav img{
+    width:200px;
+}
+.content-2 > p{
+    font-weight:bold;
+    padding:5px 0px;
+}
+.content-3{
+    border-top: 2px solid #800000;
+}
+.content-3 h2{
+    font-size:1.5em;
+    margin:5px 0px;
+}
+.content-3 nav{
+    margin-left:1.2em ;
+    line-height:1.6;
+}
+/*----------------------------------------- .CONTAINER SECTION -------------------------------------------*/
+section{
+    width: 270px;
+    padding-left: 10px;
+}
+section h2{
+    font-size:1.5em;
+    color: #a30000;
+    margin-bottom: 5px;
+}
+
+.s-people .s1 h3,
+.s-people .s1 a{ 
+    font-size:1.2em;
+}
+.s-people .s1 a{
+    font-weight: bold;
+    color:blue;
+}
+.s-people .s1 img{
+    width: 70px;
+    height:70px;
+    margin:0px 0px 10px;
+}
+/*----------------------------------------- FOOTER-------------------------------------------*/
+footer p{
+    padding:10px;
+    text-align:center;
+    background-color: #800000;
+    color:white;
+}
