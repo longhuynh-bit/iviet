@@ -5,6 +5,7 @@
 }
 body{
     width: 800px;
+    max-width: 100%;
     border: 3px solid #a30000;
     margin: 0px auto;
     /* padding:10px 15px; */
@@ -22,7 +23,7 @@ header{
     height:105px;
     width:100%;
     background-image: -webkit-linear-gradient( 30deg, #ffe082 0%, #fffded 30%, white 50%, #fffded 80%, #ffe082 100%);
-    border-bottom:2px solid #800000;
+    /* border-bottom:2px solid #800000; */
 }
 header #logo{
     width:80px;
@@ -39,6 +40,46 @@ header .header-name{
 }
 .header-name h2 span{
     text-shadow: 2px -2px 4px #a30000;
+}
+
+.menu{
+    width:100%;
+    background-color:#800000;
+    height:46px;
+    /* overflow: hidden; */
+}
+.menu .nav{
+    list-style-type: none;
+    display:inline-block;
+}
+.menu .nav li{
+    display: inline-block;
+}
+.menu .nav li:hover a{
+    background-color:#ccc;
+    color:black;
+}
+.menu .nav a{
+    text-decoration: none;
+    display: block;
+    line-height: 46px;
+    font-size:1.2em;
+    padding: 0px 24px;
+    text-transform: uppercase;
+    color:white;
+}
+.menu .mobile-menu-btn {
+    float:right;
+    padding:0 21px;
+}
+.menu .mobile-menu-btn:hover{
+    cursor: pointer;
+    background-color:#ccc;
+}
+.menu .mobile-menu-btn .menu-icon{
+    color:white;
+    font-size:20px;
+    line-height:46px;
 }
 /*----------------------------------------- CONTAINER -------------------------------------------*/
 .container{
